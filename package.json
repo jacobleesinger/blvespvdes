@@ -13,8 +13,8 @@
 		"lint": "prettier --check . && eslint .",
 		"db:push": "drizzle-kit push",
 		"db:migrate": "dotenvx run -f .env.local -- drizzle-kit migrate",
-    "db:migrate-prod": "dotenvx run -f .env.production -- drizzle-kit migrate",
-    "db:generate": "dotenvx run -f .env.local -- drizzle-kit generate",
+		"db:migrate-prod": "dotenvx run -f .env.production -- drizzle-kit migrate",
+		"db:generate": "dotenvx run -f .env.local -- drizzle-kit generate",
 		"db:studio": "drizzle-kit studio"
 	},
 	"devDependencies": {
@@ -45,6 +45,7 @@
 		"@supabase/supabase-js": "^2.47.8",
 		"@tailwindcss/forms": "^0.5.9",
 		"@tailwindcss/typography": "^0.5.15",
+		"daisyui": "^4.12.22",
 		"drizzle-orm": "^0.33.0",
 		"postgres": "^3.4.4"
 	}
